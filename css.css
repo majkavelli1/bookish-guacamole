@@ -1,0 +1,37 @@
+.warning {
+    border: 10px ridge rgb(190, 50, 50);
+    border-width: 1cm;
+    border-style: double;
+    margin: 1cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    background-color: rgb(163, 163, 69);
+    padding: .5rem;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    display: flex;
+    position: relative;
+    mask-position: 0cm;
+    ruby-position: initial;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-display: auto;
+    flex-direction: column;
+}
+
+.warning img {
+    width: 100%;
+    border-width: 0cm;
+    max-width: 0.5cm;
+    height: 100%;
+    line-height: 1cm;
+    line-break: normal;
+}
+
+.warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    font-size: 0.5cm;
+    font-weight: normal;
+    text-align: center;
+}
